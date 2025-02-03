@@ -5,6 +5,17 @@ typing practice.
 It is addressed to prospective and new Svalboard users out there. My experience will
 be different from yours. You should probably try different options.
 
+## Layouts
+My regular Keebio Iris CE that I recently converted to a `60%`. It still had some baggage
+from previous iterations. Ignore the top row. The `DEL` key is baggage from passing the
+hyper key through xpra that I also backed away from. I include here for reference.
+
+![Iris CE layout](png-iris-ce-vial-layout-modtap-v4-swapalt.png)
+
+The Svalboard layout discussed here. The base layout is nearly identical to the default.
+I am just using an extra layout with four clusters.
+![Svalboard layout](png-svalboard-v3-single-layer.png)
+
 ## Fitment
 The great misconception that held me back was that the keys had to be perpendicular to the
 the fingers. Not so.
