@@ -235,7 +235,7 @@ Windows and Chrome:
 * `M-<f4>`: close window. It's important that you can type this comfortably because if it
   goes into repeat mode it could be bad. Ask me how I know.
 * `C-<end>`
-* `M-<tab>` pressed down while using arrow keys (I use `s-<tab>` instead, which is sticky
+* `M-<tab>` pressed down while using arrow keys (I use `s-<tab>` instead, which is sticky)
 * `C-M-<left>`: browser back
 * your frequently-used passwords
 
