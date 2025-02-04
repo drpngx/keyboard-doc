@@ -18,7 +18,7 @@ use them a lot.
 ![Iris CE layout](png-iris-ce-vial-layout-modtap-v4-swapalt.png)
 
 The Svalboard layout discussed here. The base layout is nearly identical to the default.
-I am just using an extra layout with four clusters.
+I am just using an extra layer with four clusters.
 ![Svalboard layout](png-svalboard-v3-single-layer.png)
 
 ## Fitment
