@@ -9,6 +9,11 @@ be different from yours. You should probably try different options.
 My regular Keebio Iris CE that I recently converted to a `60%`. It still had some baggage
 from previous iterations. Ignore the top row. The `DEL` key is baggage from passing the
 hyper key through xpra that I also backed away from. I include here for reference.
+Of note, I have two thumb modifier keys to switch layout. There are a lot of mouse movement
+keys that won't be needed for the Svalboard. I switched the layouts for one-handed operation
+but that wasn't really useful. So the natural config is where the most used keys are on the
+opposite hand. Note that I use the function keys in Emacs for buffer navigation so I
+use them a lot.
 
 ![Iris CE layout](png-iris-ce-vial-layout-modtap-v4-swapalt.png)
 
@@ -39,13 +44,16 @@ The other digits are resting on the corner of three keys, towards the center. Th
 that the presses on these keys are going to be a little between side press and press down.
 The presses on the other keys are going to be extensions outward. So you have mostly two
 finger movement classes to manage. The down movement is more natural. The out movement
+(ie the extension of the finger towards the out keys: up and West for the left ring finger, say)
 is the tricky one and I find that it doesn't accidentally trigger multiple keys this way.
 
 If you look at the default layout, you will find that the West keys on the left hand and
-the East keys on the right hand have been assigned to less frequently used symbols.
+the East keys on the right hand have been assigned to less frequently used symbols. This
+is no accident: they are just harder to type.
 
-I changed the yaw so that the keys angle gently downward. It also minimizes travel to the
-out side key.
+I changed the yaw so that the keys angle gently downward towards the center. That also
+minimizes travel to the out side key. The thumb also tilts towards the ball, again, to
+minimize travel.
 
 When you position your hands that way, it feels a little like you are lower on the keyboard.
 This is like resting your hand on the `ZXCV` row of a normal keyboard. There is no corresponding
@@ -68,8 +76,9 @@ This is the position that minimizes accidental typos for me, and I believe it's 
 config that was intended. Strange that it took me so long to figure out.
 
 ### Notes
-The most surprinsing is that the thumb rotation is quite limited. Even if you move the palm
-rest out of the way it appears to be limited below.
+The most surprising is that the thumb rotation is quite limited. Even if you move the palm
+rest out of the way it appears to be limited below. Ideally I'd like for the thumb to be
+diagonal on the key.
 
 Space is limited and for those who have small hands like me the clusters will touch each other
 and compete for space. They are ok for now but during exploration I felt that I could have used
@@ -113,7 +122,7 @@ I'm going to give you a point system. I haven't used it myself but I want to exp
 how difficult it is to press some keys, so that prospective buyers can make a determination
 for themselves. Higher means better.
 
-Fingers:
+Scores:
 * Right hand: `+5`
 * Thumb: `+100`
 * Index: `+40`
@@ -126,6 +135,7 @@ Fingers:
 * Left digit east or right digit west: `+5`
 * Left digit west or right digit east: `-5`
 * Thumb down: `+50`
+* Thumb down-click: `-1000`
 * Thumb pad: `+30`
 * Thumb knuckle: `+15`
 * Thumb nail: `0`
@@ -171,10 +181,10 @@ more than once.
 
 But I think they are a necessary evil. I find that they can be used on keys that don't need as much speed. So,
 they can be attached to keys that are not space or letters. During coding, some key combinations need to be
-fast, such as `C-x`, `C-c`, `C-d`, and the navigation keys. Since the arrow keys are readily available,
-I use those more often now.
+fast, such as `C-x`, `C-c`, `C-d`, and the navigation keys. They must use a modifier key without mod-tap.
+(Since the arrow keys are readily available, I use those more often now.)
 
-To facilitate learning, it's best if they be on the same location on all layers. It facilitates typing when
+To facilitate learning, it's best if mod-taps be on the same location on all layers. That facilitates typing when
 you activate a layer: you don't have to think in which order you pressed the layer or modifier key. Unfortuntely,
 the only available spots on the base layer are "outer" keys on the fingers which are not ideal. I have changed
 them to the down key on the up layers where available, but I kept the outer ones.
@@ -185,10 +195,13 @@ the most useful modifiers. So it's:
 * Control for ring finger
 * Alt for pinky
 
+My conclusion might change as I get closer to normal typing speed. At 4 WPM improvement per day, I should
+know in three weeks.
+
 ### Cardinality
 For the upper layer, I pay attention to geometry and cardinality. Essentially, there are four keygroups
 that I need to fit:
-* Numbers: they are 10, so they don't fit neatly in a row of eight fingers. So I use two thumb clusters.
+* Numbers: there are 10, so they don't fit neatly in a row of eight fingers. So I use two clusters.
   Digits of lower ordinality are used more frequently so they get the stronger keys: `1` down, `2` south,
   etc
 * Function keys: same thing. They are used less frequently but I still put them on the right hand is where
@@ -197,7 +210,7 @@ that I need to fit:
   want to split my function clusters
 * Pagination keys: home, end, page up, page down.
 
-Once I made the decision not to spread horizontally, going finger by finger fit nicely. If you type numbers
+Once I made the decision not to spread horizontally, going finger by finger fits nicely. If you type numbers
 all day long, this might not work best for you.
 
 ### One-handed operation
@@ -219,7 +232,7 @@ Windows and Chrome:
 * `C-S-<tab>`
 * `s-r`: run command
 * `C-S-ESC`: taskmgr
-* `C-M-<f4>`: close window. It's important that you can type this comfortably because if it
+* `M-<f4>`: close window. It's important that you can type this comfortably because if it
   goes into repeat mode it could be bad. Ask me how I know.
 * `C-<end>`
 * `M-<tab>` pressed down while using arrow keys (I use `s-<tab>` instead, which is sticky
@@ -230,7 +243,8 @@ Emacs:
 * `C-_`: undo
 * `M-^`: join line
 * `M-%`: replace string
-* keychords. For instance I use `cv` for `M-x recompile`.
+* keychords. For instance I use `cv` for `M-x recompile`. `,,` brings up `magit`.
+
 Some new combinations opened up such as `M-}` which was previously awkward.
 Emacs can always be configured, of course, but if you remap too many keys, ask yourself
 the question if the problem is in the layout.
